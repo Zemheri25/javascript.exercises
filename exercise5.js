@@ -6,9 +6,9 @@ function keysAndValues (object1) {
     return array
 }
     
-object2 = { a: 1, b: 2, c: 3 }
-object3 = { a: "Apple", b: "Microsoft", c: "Google" }
-object4 = { key1: true, key2: false, key3: undefined }
+let object2 = { a: 1, b: 2, c: 3 }
+let object3 = { a: "Apple", b: "Microsoft", c: "Google" }
+let object4 = { key1: true, key2: false, key3: undefined }
 
 
 console.log(keysAndValues(object2))
