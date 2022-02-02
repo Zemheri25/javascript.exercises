@@ -1,8 +1,11 @@
 function reversing(array1) {
     let newarray = array1.split(" ");
+    console.log(newarray)
     newarray = newarray.reverse();
+    console.log(newarray)
     newarray = newarray.join(" ")
-    return newarray
+    console.log(newarray)
 }
 
-console.log(reversing("My name is Ömer"));
+reversing("My name is Ömer")
+
