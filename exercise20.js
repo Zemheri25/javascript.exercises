@@ -1,9 +1,9 @@
 function reverse(sentence) {
-    let array1 = []
+    let str1 = ""
     for(let i = 1; i <= sentence.length; i++) {
-        array1.push(sentence[sentence.length-i])
+        str1 += sentence[sentence.length-i]
     }
-    return array1.join("")
+    return str1
 }
 
 console.log(reverse("Clarusway Rocks!"))
