@@ -12,4 +12,3 @@ function fibonacci(number) {
 
 
 console.log(fibonacci(7));
-
