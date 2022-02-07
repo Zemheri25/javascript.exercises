@@ -4,4 +4,3 @@ function secondLargest(array1) {
 }
 
 console.log(secondLargest([1, 2, 8, 6, 4]));
-
