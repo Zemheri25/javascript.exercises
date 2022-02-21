@@ -6,4 +6,5 @@ function repetiton(string1, seperator, number1) {
     return mystr.substring(0, mystr.length-1)
 }
 
-console.log(repetiton("Tina", "!", 3))
+console.log(repetiton("ömer", "?", 30))
+
