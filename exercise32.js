@@ -26,6 +26,7 @@ function countingMiss(array1) {
 }
 
 console.log(countingMiss([-1,0,2,3 ]));
+console.log(countingMiss([2, 3, 4]));
 
 
 
